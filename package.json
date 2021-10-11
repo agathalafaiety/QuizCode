@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/agathalafaiety/QuizCode#readme",
   "dependencies": {
-    "moment": "^2.29.1"
-  }
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.13"
+  },
+  "devDependencies": {}
 }
