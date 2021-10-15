@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "dev": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,12 +12,14 @@
     "url": "git+https://github.com/agathalafaiety/QuizCode.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/agathalafaiety/QuizCode/issues"
   },
   "homepage": "https://github.com/agathalafaiety/QuizCode#readme",
   "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
     "moment": "^2.29.1",
     "nodemon": "^2.0.13"
   },
