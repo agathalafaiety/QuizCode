@@ -20,20 +20,14 @@ h5{
     color: #ffffff;
     height: 45px;
     width: 743px;
-    justify-content: left;
+    justify-content: flex-start;
 }
 
 h6{
     color: #ffffff;
-    justify-content: right;
     margin-left: 400px;
+    justify-content: flex-end;
 }
-
-img > footer {
-    justify-content: right;
-    margin-left: 390px;
-}
-
 
 header{
     background: linear-gradient(45deg, #8e2de2, #4a00e0);
