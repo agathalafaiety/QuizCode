@@ -7,7 +7,7 @@ app.use(express.static('public'));
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
-    return res.send('login')
+    return res.render('login')
 })
 
 app.get('/cadastro', (req, res) => {
@@ -18,7 +18,7 @@ app.get('/inicio', (req, res) => {
     return res.render('inicio')
 })
 
-app.get('/configurações', (req, res) => {
+app.get('/config', (req, res) => {
     return res.render('config')
 })
 
