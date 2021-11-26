@@ -1,9 +1,10 @@
 const config = {
     username:'root',
     password:'',
-    database:'nodejs',
+    database:'quizcode_projeto',
     host:'localhost',
-    dialect:'msql'
+    dialect:'msql',
+    use_env_variable: false
 }
 
 module.exports = config;
