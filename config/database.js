@@ -3,9 +3,8 @@ const config = {
     password:'',
     database:'quizcode_projeto',
     host:'localhost',
-    dialect:'msql',
+    dialect:'mysql',
     use_env_variable: false
 }
 
 module.exports = config;
-
