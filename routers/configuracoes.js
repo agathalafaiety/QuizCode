@@ -1,17 +1,16 @@
 const express = require('express');
+const configController = require('../controllers/configController');
 const router = express.Router();
 
-router.get('/', (req, res) => {
-    return res.render('./views/pages/config')
-})
+router.get('/', configController.index
+)
 
 router.get('/alterarTema', (req, res) => {
     return res.render('./views/pages/alterarTema')
 })
 
-router.get('/alterarSenha', (req, res) => {
-    return res.render('./views/pages/alterarSenha')
-})
+router.get('/alterarSenha', configController.alterarSenha
+)
 
 router.get('/esqueciaSenha', (req, res) => {
     return res.render('./views/pages/esqueciaSenha')
