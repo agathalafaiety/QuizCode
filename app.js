@@ -1,8 +1,8 @@
 const express = require('express');
-const userRouter = require('./routes/userRouter');
-const configuracoesRouter = require('./routes/configuracoes')
-const jogarRouter = require('./routes/jogar')
 const app = express();
+const userRouter = require('./routers/userRouter');
+const configuracoesRouter = require('./routers/configuracoes')
+const jogarRouter = require('./routers/jogar')
 
 app.set('views', __dirname, 'views', 'pages');
 app.use(express.static('public'));
