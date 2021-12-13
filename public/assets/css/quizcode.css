@@ -1,0 +1,23 @@
+h3 {
+    position: absolute;
+    left: 10.05%;
+    right: 10.05%;
+    top: 43.74%;
+    bottom: 52.48%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #4A00E0;
+}
+
+button{
+    position: absolute;
+    left: 10.05%;
+    right: 10.05%;
+    top: 50.54%;
+    bottom: 43.84%;
+    background: linear-gradient(90deg, #8E54E9 0%, #4776E6 100%);
+    background-blend-mode: darken;
+    border-radius: 10px;
+}
