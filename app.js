@@ -9,27 +9,27 @@ app.use(express.static('public'));
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
-    return res.render('./views/pages/login')
+    return res.render('pages/login')
 })
 
 app.get('/cadastro', (req, res) => {
-    return res.render('./views/pages/cadastro')
+    return res.render('pages/cadastro')
 })
 
 app.get('/inicio', (req, res) => {
-    return res.render('./views/pages/inicio')
+    return res.render('pages/inicio')
 })
 
 app.get('/criarSala', (req, res) => {
-    res.render('./views/pages/criarSala')
+    res.render('pages/criarSala')
 })
 
 app.get('/rankingGeral', (req, res) => {
-    res.render('./views/pages/rankingGeral')
+    res.render('pages/rankingGeral')
 })
 
 app.get('/loja', (req, res) => {
-    res.render('./views/pages/loja')
+    res.render('pages/loja')
 })
 
 app.use('/', userRouter);
