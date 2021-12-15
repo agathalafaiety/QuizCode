@@ -5,5 +5,5 @@ module.exports = {
     config:patch.resolve('./database/config', 'config.js'),
     'models-patch':path.resolve('./database/models'),
     'seeders-patch':path.resolve('./database/seeders'),
-    'migrations-patch':path.resoolve('./database/migrations'),
+    'migrations-patch':path.resolve('./database/migrations'),
 }

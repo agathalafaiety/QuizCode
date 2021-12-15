@@ -2,11 +2,11 @@
 
 const configController = {
     index: (req, res) => {
-        return res.render('pages/config')
+        return res.render('./views/pages/config')
     },
 
     alterarSenha: (req, res) => {
-        return res.render('pages/alterarSenha')
+        return res.render('./views/pages/alterarSenha')
     }
 }
 
