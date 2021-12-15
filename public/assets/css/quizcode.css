@@ -1,0 +1,59 @@
+img {
+    position: absolute;
+    width: 176px;
+    height: 172px;
+    left: 126px;
+    top: 215px;
+    border-radius: 18px;
+}
+
+h3 {
+    position: absolute;
+    left: 10.05%;
+    right: 10.05%;
+    top: 43.74%;
+    bottom: 52.48%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #4A00E0;
+}
+
+button{
+    background: linear-gradient(90deg, #8E54E9 0%, #4776E6 100%);
+    background-blend-mode: darken;
+    border-radius: 10px;
+}
+
+#A {
+    position: absolute;
+    left: 10.05%;
+    right: 10.05%;
+    top: 50.54%;
+    bottom: 43.84%;
+}
+
+#B {
+    position: absolute;
+    left: 10.05%;
+    right: 10.05%;
+    top: 58.75%;
+    bottom: 35.64%;
+}
+
+#C {
+    position: absolute;
+    left: 10.05%;
+    right: 10.05%;
+    top: 67.17%;
+    bottom: 27.21%;
+}
+
+#D {
+    position: absolute;
+    left: 10.05%;
+    right: 10.05%;
+    top: 76.13%;
+    bottom: 18.25%;
+}

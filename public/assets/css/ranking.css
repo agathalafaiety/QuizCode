@@ -1,38 +1,24 @@
-header{
-    background: linear-gradient(45deg, #8e2de2, #4a00e0);
-    color: white;
-    display: flex;
-    width: 100%;
-    height: 50px;
-    font-size: 30px;
-    align-items: center;
+#Diamante {
+    position: absolute;
+    width: 150px;
+    height: 130px;
+    left: 139px;
+    top: 266px
 }
 
-.menu{
-    width: 30px;
-    height: 30px;
-    display: flex;
-    margin-left: 1250px;
-    margin-bottom: 48px;
+#Podium {
+    position: absolute;
+    width: 442px;
+    height: 226px;
+    left: -7px;
+    top: 484px;
 }
 
-footer {
-    background: linear-gradient(45deg, #8e2de2, #4a00e0);
-    display: flex;
-    width: 100%;
-    height: 50px;
-    font-size: 15px;
-}
-
-h5{
-    color: #ffffff;
-    height: 45px;
-    width: 743px;
-    justify-content: flex-start;
-}
-
-h6{
-    color: #ffffff;
-    margin-left: 400px;
-    justify-content: flex-end;
+#Seta {
+    position: absolute;
+    left: 10.05%;
+    right: 85.28%;
+    top: 85.31%;
+    bottom: 11.45%;
+    border: 2px solid #8E2DE2;
 }
