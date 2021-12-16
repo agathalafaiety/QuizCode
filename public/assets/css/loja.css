@@ -1,72 +1,72 @@
 #Batiman {
     position: absolute;
-    width: 145px;
-    height: 149px;
-    left: 57px;
-    top: 186px
+    width: 182px;
+    height: 174px;
+    left: 308px;
+    top: 324px;
 }
 
 #Avatar {
     position: absolute;
-    width: 145px;
-    height: 149px;
-    left: 225px;
-    top: 186px
+    width: 182px;
+    height: 174px;
+    left: 520px;
+    top: 324px;
 }
 
 #Trump {
     position: absolute;
-    width: 145px;
-    height: 149px;
-    left: 57px;
-    top: 358px;
+    width: 182px;
+    height: 174px;
+    left: 308px;
+    top: 525px;
 }
 
 #Cr7 {
     position: absolute;
-    width: 145px;
-    height: 149px;
-    left: 225px;
-    top: 358px;
+    width: 182px;
+    height: 174px;
+    left: 520px;
+    top: 525px;
 }
 
 #Palhaco {
     position: absolute;
-    width: 154px;
-    height: 157px;
-    left: 42px;
-    top: 513px;
+    width: 182px;
+    height: 174px;
+    left: 732px;
+    top: 330px;
 }
 
 #Joker {
     position: absolute;
-    width: 154px;
-    height: 157px;
-    left: 227px;
-    top: 507px;
+    width: 182px;
+    height: 174px;
+    left: 950px;
+    top: 324px;
 }
 
 #Obama {
     position: absolute;
-    width: 153px;
-    height: 157px;
-    left: 48px;
-    top: 689px;
+    width: 182px;
+    height: 174px;
+    left: 738px;
+    top: 525px;
 }
 
 #Charles {
     position: absolute;
-    width: 154px;
-    height: 157px;
-    left: 227px;
-    top: 689px;
+    width: 182px;
+    height: 174px;
+    left: 950px;
+    top: 525px;
 }
 
 #Seta {
     position: absolute;
-    left: 5.14%;
-    right: 90.19%;
-    top: 84.99%;
-    bottom: 11.77%;
+    left: 3.12%;
+    right: 95.49%;
+    top: 84.38%;
+    bottom: 12.7%;
     border: 2px solid #8E2DE2;
 }
