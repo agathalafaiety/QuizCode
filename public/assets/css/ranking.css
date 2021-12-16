@@ -1,24 +1,24 @@
 #Diamante {
     position: absolute;
-    width: 150px;
-    height: 130px;
-    left: 139px;
-    top: 266px
+    width: 215px;
+    height: 200px;
+    left: 612px;
+    top: 171px;
 }
 
 #Podium {
     position: absolute;
-    width: 442px;
-    height: 226px;
-    left: -7px;
-    top: 484px;
+    width: 866px;
+    height: 443px;
+    left: 287px;
+    top: 491px;
 }
 
 #Seta {
     position: absolute;
-    left: 10.05%;
-    right: 85.28%;
-    top: 85.31%;
-    bottom: 11.45%;
+    left: 3.12%;
+    right: 95.49%;
+    top: 84.38%;
+    bottom: 12.7%;
     border: 2px solid #8E2DE2;
 }
