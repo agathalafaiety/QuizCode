@@ -22,4 +22,4 @@ module.exports = (sequelize, dataTypes) => {
     }
     
     return Resposta;
-    }
+}

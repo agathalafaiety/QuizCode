@@ -4,15 +4,15 @@ const router = express.Router();
 //const { Pergunta } = require('../models');
 
 router.get('/', (req, res) => {
-    res.render('./views/pages/sala')
+    res.render('pages/sala')
 })
 
 router.get('/quizcode', (req, res) => {
-    return res.render('./views/pages/quizcode')
+    return res.render('pages/quizcode')
 })
 
 router.get('/ranking', (req, res) => {
-    return res.render('./views/pages/ranking')
+    return res.render('pages/ranking')
 })
 
 module.exports = router;

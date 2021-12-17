@@ -1,9 +1,8 @@
-const { path } = require('express/lib/application')
-const patch = require ('patch')
+const path = require ('path')
 
 module.exports = {
-    config:patch.resolve('./database/config', 'config.js'),
-    'models-patch':path.resolve('./database/models'),
-    'seeders-patch':path.resolve('./database/seeders'),
-    'migrations-patch':path.resolve('./database/migrations'),
+    config:path.resolve('config/database.js'),
+    'models-path':path.resolve('models'),
+    'seeders-path':path.resolve('./database/seeders'),
+    'migrations-path':path.resolve('./database/migrations'),
 }
