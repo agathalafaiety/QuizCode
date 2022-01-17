@@ -1,28 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/login.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/login.css" />
     <title>Login</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <%- include ('../partials/header') %>
 
     <main class="container">
-    <h6>Login</h6>
-    <form action="">
+      <h6>Login</h6>
+      <div class="field facebook">
+        <a href="#"> </a>
+      </div>
+      <div class="google">
+        <a href="#"> </a>
+      </div>
+      <form action="">
         <div class="input-field">
-            <input type="email" name="email" id="email"
-                placeholder="Insira seu email">
-            <div class="underline"></div>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Insira seu email"
+          />
+          <div class="underline"></div>
         </div>
-</main>
 
-<%- include ('../partials/footer') %>
+        <div class="input-field">
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Insira sua senha"
+          />
+          <div class="underline"></div>
+        </div>
 
-</body>
+        <input type="submit" value="Continue" />
+        <span>Esqueci a senha</span>
+
+        <h3>Criar coonta</h3>
+      </form>
+    </main>
+
+    <%- include ('../partials/footer') %>
+  </body>
 </html>

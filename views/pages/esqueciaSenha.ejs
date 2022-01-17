@@ -12,7 +12,48 @@
         <%- include ('../partials/header') %>
 
             <main>
+                <h6>Esqueci a senha</h6>
 
+                <div class="input-field">
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="Insira seu email"
+                    />
+                    <div class="underline"></div>
+                  </div>
+
+                  <div class="input-field">
+                    <input
+                      type="number"
+                      name="number"
+                      id="number"
+                      placeholder="Insira o codigo enviado"
+                    />
+                    <div class="underline"></div>
+                  </div>
+                  <span>não recebeu o codigo ? <a href="clique aqui"></a></span>
+                  <div class="input-field">
+                    <input
+                      type="password"
+                      name="password"
+                      id="password"
+                      placeholder="Nova senha"
+                    />
+                    <div class="underline"></div>
+                  </div>
+
+                  <div class="input-field">
+                    <input
+                      type="password"
+                      name="password"
+                      id="password"
+                      placeholder="Confirme a senha"
+                    />
+                    <div class="underline"></div>
+                  </div>
+                  <input type="submit" value="Concluido"/>
             </main>
 
             <%- include ('../partials/footer') %>

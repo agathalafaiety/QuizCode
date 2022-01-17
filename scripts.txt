@@ -8,28 +8,28 @@
 7. Testar listar categorias: OK
 
 //PERGUNTA\\
-1. Criar model de Pergunta: 
-2. Criar perguntaController: 
-3. Criar metodo de listar: 
-4. Criar arquivo de rotasPerguntas: 
-5. Adicionar uma rota e colocar o metodo listar do controller: 
+1. Criar model de Pergunta: OK
+2. Criar perguntaController: OK
+3. Criar metodo de listar: OK
+4. Criar arquivo de rotasPerguntas: OK
+5. Adicionar uma rota e colocar o metodo listar do controller: OK
 6. Adicionar o arquivo de rotas no app.js: 
 7. Testar listar perguntas: 
 
 //RESPOSTA\\
-1. Criar model de Resposta: 
-2. Criar respostaController: 
+1. Criar model de Resposta: OK
+2. Criar respostaController: OK
 3. Criar metodo de listar: 
-4. Criar arquivo de rotasRespostas: 
+4. Criar arquivo de rotasRespostas: OK
 5. Adicionar uma rota e colocar o metodo listar do controller: 
 6. Adicionar o arquivo de rotas no app.js: 
 7. Testar listar respostas:
 
 //USUARIO\\
-1. Criar model de Usuario: 
-2. Criar usuarioController: 
+1. Criar model de Usuario: OK
+2. Criar usuarioController: OM
 3. Criar metodo de listar: 
-4. Criar arquivo de rotasUsuario: 
+4. Criar arquivo de rotasUsuario: OK
 5. Adicionar uma rota e colocar o metodo listar do controller: 
 6. Adicionar o arquivo de rotas no app.js: 
 7. Testar listar usuarios:
