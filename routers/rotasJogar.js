@@ -1,7 +1,5 @@
 const express = require('express');
 const router = express.Router();
-//const { Resposta } = require('../models');
-//const { Pergunta } = require('../models');
 
 router.get('/', (req, res) => {
     res.render('pages/sala')

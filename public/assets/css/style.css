@@ -8,20 +8,20 @@
     font-family: "Poppins", sans-serif;
 }
 
-h5{
+h5 {
     color: #ffffff;
     height: 45px;
     width: 743px;
     justify-content: flex-start;
 }
 
-h6{
+h6 {
     color: #ffffff;
     margin-left: 400px;
     justify-content: flex-end;
 }
 
-header{
+header {
     background: linear-gradient(45deg, #8e2de2, #4a00e0);
     color: white;
     display: flex;
@@ -31,7 +31,7 @@ header{
     align-items: center;
 }
 
-.menu{
+.menu {
     width: 30px;
     height: 30px;
     display: flex;

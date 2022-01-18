@@ -2,13 +2,13 @@ module.exports = (sequelize, dataTypes) => {
 
     const Pergunta = sequelize.define('Pergunta', {
         id: {
-            type: dataTypes.INTEGER, 
+            type: dataTypes.INTEGER,
             allowNull: false,
             autoIncrement: true,
             primaryKey: true
         },
         titulo_pergunta: dataTypes.INTEGER,
-    },  {
+    }, {
         timestamps: false,
         tableName: 'respostas'
     });
@@ -19,6 +19,6 @@ module.exports = (sequelize, dataTypes) => {
             as: 'categoria'
         })
     }
-    
+
     return Pergunta;
 }

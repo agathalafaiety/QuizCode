@@ -21,7 +21,7 @@ h3 {
     color: #4A00E0;
 }
 
-button{
+button {
     background: linear-gradient(90deg, #8E54E9 0%, #4776E6 100%);
     background-blend-mode: darken;
     border-radius: 10px;

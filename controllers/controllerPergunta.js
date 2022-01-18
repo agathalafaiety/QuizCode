@@ -1,6 +1,6 @@
-const { Pergunta } = require('../models');
+const { Pergunta } = require('../models/Index');
 
-const perguntaController = {
+const controllerPergunta = {
     index: async (req, res) => {
         const perguntas = await Pergunta.findAll();
         return res.json(perguntas)
@@ -8,14 +8,14 @@ const perguntaController = {
 
     show: async (req, res) => {
         const id = req.params.id;
-        const perguntas = await Pergunta.findOne({where: { id }});
+        const perguntas = await Pergunta.findOne({ where: { id } });
 
         if (perguntas == null) {
-            return res.status(404).json({mensagem: 'Pergunta não encontrada'})
+            return res.status(404).json({ mensagem: 'Pergunta não encontrada' })
         }
 
         return res.json(perguntas)
     }
 }
 
-module.exports = perguntaController;
+module.exports = controllerPergunta;

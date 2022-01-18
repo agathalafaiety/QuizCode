@@ -1,4 +1,4 @@
-.alterarperfil{
+.alterarperfil {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,13 +10,13 @@
     border-radius: 100%;
 }
 
-.alterarperfilimg{
+.alterarperfilimg {
     display: flex;
     width: 130px;
     height: 130px;
 }
 
-.botoes{
+.botoes {
     background: linear-gradient(45deg, #4776E6, #8E54E9);
     color: white;
     display: flex;
@@ -32,11 +32,11 @@
     line-height: 49px;
 }
 
-.conteudo{
-    margin-left: 465px;    
+.conteudo {
+    margin-left: 465px;
 }
 
-.h5{
+.h5 {
     color: linear-gradient(45deg, #4776E6, #8E54E9);
     display: flex;
     justify-content: center;

@@ -2,14 +2,14 @@ module.exports = (sequelize, dataTypes) => {
 
     const Resposta = sequelize.define('Resposta', {
         id: {
-            type: dataTypes.INTEGER, 
+            type: dataTypes.INTEGER,
             allowNull: false,
             autoIncrement: true,
             primaryKey: true
         },
         titulo_resposta: dataTypes.INTEGER,
         resposta_certa: dataTypes.INTEGER
-    },  {
+    }, {
         timestamps: false,
         tableName: 'respostas'
     });
@@ -20,6 +20,6 @@ module.exports = (sequelize, dataTypes) => {
             as: 'pergunta'
         })
     }
-    
+
     return Resposta;
 }

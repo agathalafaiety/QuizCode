@@ -1,39 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/config.css">
-    <link rel="stylesheet" href="/assets/css/header.css">
-    <link rel="stylesheet" href="/assets/css/footer.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/config.css" />
+    <link rel="stylesheet" href="/assets/css/header.css" />
+    <link rel="stylesheet" href="/assets/css/footer.css" />
     <title>QUIZ CODE</title>
-</head>
+  </head>
 
-    <body>
+  <body>
+    <%- include ('../partials/header') %>
 
-        <%- include ('../partials/header') %>
+    <main class="config">
+      <div class="alterarperfil">
+        <img
+          class="alterarperfilimg"
+          src="img/alterar-perfil.png"
+          alt="alterar-perfil"
+        />
+      </div>
+      <br />
 
-            <main class="config">
-                
-                <div class="alterarperfil"><img class="alterarperfilimg" src="img/alterar-perfil.png" alt="alterar-perfil"></div>
-                <br>
+      <h5 class="h5">????????????</h5>
 
-                <h5 class="h5">????????????</h5>
+      <div class="conteudo">
+        <br />
+        <button class="botoes"><h4>ALTERAR TEMA</h4></button>
+        <br />
+        <button class="botoes"><h4>ALTERAR SENHA</h4></button>
+        <br />
+      </div>
 
-                <div class="conteudo">
-                <br>
-                <button class="botoes"><h4>ALTERAR TEMA</h4></button>
-                <br>
-                <button class="botoes"><h4>ALTERAR SENHA</h4></button>
-                <br>
-                </div>
-                
-                <h5 class="h5">DESENVOLVEDORES</h5>
-            </main>
+      <h5 class="h5">DESENVOLVEDORES</h5>
+    </main>
 
-            <%- include ('../partials/footer') %>
-    </body>
-
-    </html>
+    <%- include ('../partials/footer') %>
+  </body>
+</html>

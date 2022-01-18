@@ -1,12 +1,12 @@
 const express = require('express');
-const configController = require('../controllers/configController');
+const controllerCofiguracao = require('../controllers/controllerCofiguracao');
 const router = express.Router();
 
 router.get('/alterarTema', (req, res) => {
     return res.render('pages/alterarTema')
 })
 
-//router.get('/alterarSenha', configController.alterarSenha)
+//router.get('/alterarSenha', ccontrollerCofiguracao.alterarSenha)
 
 router.get('/esqueciaSenha', (req, res) => {
     return res.render('pages/esqueciaSenha')

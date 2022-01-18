@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
-const userRouter = require('./routers/userRouter');
-const configuracoesRouter = require('./routers/configuracoes')
-const jogarRouter = require('./routers/jogar')
-const categoriasRouter = require('./routers/categorias')
+const rotasUsuarios = require('./routers/rotasUsuarios');
+const rotasConfiguracoes = require('./routers/rotasConfiguracoes')
+const rotasJogar = require('./routers/rotasJogar')
+const rotasCategorias = require('./routers/rotasCategorias')
 
 app.use(express.static('public'));
 app.set('view engine', 'ejs');
@@ -32,10 +32,10 @@ app.get('/loja', (req, res) => {
     res.render('pages/loja')
 })
 
-app.use('/', userRouter);
-app.use('/configuracoes', configuracoesRouter);
-app.use('/jogar', jogarRouter);
-app.use('/categorias', categoriasRouter);
+app.use('/', rotasUsuarios);
+app.use('/configuracoes', rotasConfiguracoes);
+app.use('/jogar', rotasJogar);
+app.use('/categorias', rotasCategorias);
 
 //Conexão com o servidor
 app.listen(3000, () => {
