@@ -1,6 +1,10 @@
 const express = require('express');
-const controllerCofiguracao = require('../controllers/controllerCofiguracao');
+const controllerCofiguracao = require('../controllers/controllerCofiguracao')
 const router = express.Router();
+
+router.get('/', (req, res) => {
+    return res.render('pages/config')
+})
 
 router.get('/alterarTema', (req, res) => {
     return res.render('pages/alterarTema')
