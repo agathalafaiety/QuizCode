@@ -1,4 +1,4 @@
-const { Usuario } = require('../models/Index');
+const { Usuario } = require('../models');
 
 const controllerUsuario = {
     index: async (req, res) => {

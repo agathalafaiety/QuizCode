@@ -1,4 +1,4 @@
-const Configuracao = require('../models/Index');
+//const { Configuracao } = require('../models');
 
 const controllerCofiguracao = {
     index: async (req, res) => {
